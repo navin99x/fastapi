@@ -1,0 +1,37 @@
+# Python bytecode and cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+fastapi-env/
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Sensitive data
+*.env  # Environment variables (e.g., API keys)
+secrets/
+
+# Build/dist files
+build/
+dist/
+*.egg
