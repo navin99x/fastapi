@@ -11,4 +11,4 @@ app = FastAPI()
 
 @app.get("/")
 async def root(ads_id: Annotated[Cookies, Cookie(alias="id")]):
-    return {"ads_id": ads_id}
+    return {"ads_id": ads_id.ads_id}
