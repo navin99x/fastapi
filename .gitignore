@@ -7,7 +7,7 @@ __pycache__/
 .pytest_cache/
 
 # Virtual environments
-fastapi-env/
+venv
 
 # IDE/Editor files
 .idea/
